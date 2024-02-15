@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /form-practice/admin/
+
+    RewriteRule ^$ login.html [L]
+</IfModule>
