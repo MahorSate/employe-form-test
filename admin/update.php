@@ -31,6 +31,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $query->close();
 }
 
+
+
 $conn->close();
 ?>
 
